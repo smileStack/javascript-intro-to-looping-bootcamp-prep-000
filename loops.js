@@ -2,7 +2,7 @@ var arr = [];
 var arr2 = [2,3,5];
 forLoop(arr);
 whileLoop(10);
-//doWhileLoop(arr);
+doWhileLoop(arr2);
 
 function forLoop(array){
    for(let i=0; i<25;i++){
