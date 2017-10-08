@@ -31,9 +31,8 @@ console.log(array);
   do{
     array.pop();
 
-    console.log(array);
+  console.log(array);
   console.log(array.length);
-  console.log( maybeTrue());
 
 }while(array.length>0 || maybeTrue()==true);
 }
