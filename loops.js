@@ -1,4 +1,5 @@
 var arr = [];
+var arr2 = [2,3,5];
 forLoop(arr);
 whileLoop(10);
 //doWhileLoop(arr);
