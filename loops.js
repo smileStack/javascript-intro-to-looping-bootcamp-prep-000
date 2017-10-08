@@ -39,5 +39,5 @@ console.log(array);
 
     console.log(array);
 
-}while(array.length>1 || maybeTrue()==true);
+}while(array.length>0 || maybeTrue()==true);
 }
