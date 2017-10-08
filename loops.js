@@ -6,7 +6,7 @@ doWhileLoop(arr2);
 
 function forLoop(array){
 
-   for(let i=array.length; i<25;i++){
+   for(let i=array.length; i<(25+array.length);i++){
      if(i==0){
        array[i] = "I am " + i +" strange loop."
      }else{
