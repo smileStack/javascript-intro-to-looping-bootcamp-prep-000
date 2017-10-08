@@ -1,5 +1,5 @@
 var arr = [];
-forLoop(arr);
+arr=forLoop(arr);
 whileLoop(10);
 doWhileLoop(arr);
 
