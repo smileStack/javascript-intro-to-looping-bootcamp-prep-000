@@ -1,4 +1,4 @@
-var array = [];
+var array = [10,2,3];
 forLoop(array);
  forLoop(array){
    for(let i=0; i<array.length;i++){
