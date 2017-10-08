@@ -29,6 +29,9 @@ function maybeTrue() {
 function doWhileLoop(array){
 console.log(array);
   do{
+    if(array.length>0){
+      return array;
+    }
     console.log(array);
 
     array.pop();
