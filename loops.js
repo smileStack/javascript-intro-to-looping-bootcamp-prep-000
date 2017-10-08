@@ -1,7 +1,7 @@
 var arr = [];
 forLoop(arr);
 whileLoop(10);
-//doWhileLoop(arr);
+doWhileLoop(arr);
 
 function forLoop(array){
    for(let i=0; i<25;i++){
