@@ -1,8 +1,9 @@
-var arr = [10,2,3];
+var arr = [];
 forLoop(arr);
 function forLoop(array){
   console.log(array.length);
-   for(let i=0; i<array.length;i++){
-     console.log("I am ${i} strange loop${i === 0 ? '' : 's'}.");
+   for(let i=0; i=<25;i++){
+     array[i] = "I am ${i} strange loop${i === 0 ? '' : 's'}."
    }
  }
+s
