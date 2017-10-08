@@ -3,7 +3,7 @@ forLoop(arr);
 whileLoop(10);
 
 function forLoop(array){
-   for(let i=0; i<=25;i++){
+   for(let i=0; i<25;i++){
      if(i==0){
        array[i] = "I am " + i +" strange loop."
      }else{
