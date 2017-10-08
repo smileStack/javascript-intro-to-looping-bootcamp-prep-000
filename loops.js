@@ -29,6 +29,7 @@ function maybeTrue() {
 function doWhileLoop(array){
 console.log(array);
   do{
+    console.log(array.length);
     if(array.length>0){
       return array;
     }
