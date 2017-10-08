@@ -27,7 +27,11 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 function doWhileLoop(array){
+console.log(array);
   do{
     array.pop();
-  }while(array.length>0 | maybeTrue()==false);
+    
+    console.log(array);
+
+  }while(array.length>0 | maybeTrue()===false);
 }
