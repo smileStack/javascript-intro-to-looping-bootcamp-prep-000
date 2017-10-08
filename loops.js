@@ -1,6 +1,7 @@
 var arr = [];
 forLoop(arr);
 whileLoop(10);
+doWhileLoop(arr);
 
 function forLoop(array){
    for(let i=0; i<25;i++){
@@ -22,5 +23,7 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-
+  do{
+    array.pop();
+  }while(!array.isEmpty());
 }
