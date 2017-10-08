@@ -33,6 +33,6 @@ console.log(array);
 
     console.log(array);
   console.log(array.length);
-  
+
   }while(array.length>0 | maybeTrue()===false);
 }
