@@ -33,12 +33,11 @@ console.log(array);
     if(array.length==0){
       return array;
     }
-    console.log(array);
+    
 
     array.pop();
 
-  console.log(array);
-  console.log(array.length);
+    console.log(array);
 
 }while(array.length>1 || maybeTrue()==true);
 }
